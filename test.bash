@@ -11,7 +11,7 @@ res=0
 
 
 out=$(seq 5 | ./plus)
-[ "${out}" = "15, 3.0" ] || ng ${LINENO}
+[ "${out}" = "15,3.0" ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
