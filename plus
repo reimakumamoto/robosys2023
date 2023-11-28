@@ -4,20 +4,22 @@
 
 import sys
 
-total_sum = 0
+ans = 0
 count = 0
 
 for line in sys.stdin:
     try:
-        num = float(line)
-        total_sum += num
+        num = int(line)
+        ans += num
         count += 1
-    except ValueError:
-        # 行の内容が数値に変換できない場合は無視
-        pass
+    except:
+        num = float(line)
+        ans += num
+        count += 1
+              
 
 if count > 0:
-    average = total_sum / count
-    print(f"合計: {total_sum}, 平均: {average}")
-else:
-    print("有効な数値が見つかりません。")
+    average = ans / count
+    print(f"{ans}, {average}")
+
+
