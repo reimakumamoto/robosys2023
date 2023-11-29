@@ -33,6 +33,7 @@ $ 55, 5.5
 
 # ライセンス
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
+* このパッケージは、ryuichiueda/emcl由来のコード(©　2022 RyuichiUeda)を利用しています。　
 * このパッケージのコードは、下記のスライド（CC_BY_SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自作の著作としたものです。
     * [ryuichiueda/my_slides/robosys2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Reima Kumamoto 
