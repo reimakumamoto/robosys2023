@@ -32,8 +32,7 @@ $ 55, 5.5
 * Ubuntu 20.04
 
 # ライセンス
-* このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
-* このパッケージは、ryuichiueda/emcl由来のコード(©　2022 RyuichiUeda)を利用しています。　
+* このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。　
 * このパッケージのコードは、下記のスライド（CC_BY_SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自作の著作としたものです。
     * [ryuichiueda/my_slides/robosys2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Reima Kumamoto 
