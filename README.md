@@ -1,5 +1,5 @@
 # robosys2023
-2023年度未来ロボティクス学科のロボットシステム学の講義内でのリポジトリである。
+2023年度未来ロボティクス学科のロボットシステム学の講義内で作成したリポジトリである。
 
 # plusコマンド
 [![test](https://github.com/reimakumamoto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/reimakumamoto/robosys2023/actions/workflows/test.yml)
@@ -7,22 +7,23 @@
 
 # 使い方
 ・インストール方法
+```
 $ git clone https://github.com/reimakumamoto/robosys2023.git
-
+```
 ・ディレクトリの指定
-
+```
 $cd robosys2023
-
+```
 ・機能
 
 実行コマンドの例 
-
+```
 $ seq 10 | ./plus 
-
+```
 実行結果例（読み込んだ数字の合計とその平均が表示される。）
-
+```
 $ 55, 5.5
-
+```
 ## 必要なソフトウェア
 * python
   * テスト済み: 3.7～3.10
